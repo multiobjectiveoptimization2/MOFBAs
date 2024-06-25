@@ -15,7 +15,7 @@ import logging
 class FBA_Problem(FloatProblem):
     pass
         
-    def __init__(self, vars, objs, cell: MetabolismDefinition= None, name = 'FBA Model on Metabolites Journal'):
+    def __init__(self, vars, objs, cell: MetabolismDefinition= None, name = 'FBA_Problem'):
         super(FBA_Problem, self).__init__()
         
       
